@@ -17,7 +17,7 @@ Once you have completed the translation, you should file a bug on
 the atheme bugtracker, and attach the file.
 
 Users can set their language using /msg NickServ SET LANGUAGE.
-The default language is set in atheme.conf. The localization
+The default language is set in eztheme.conf. The localization
 environment variables (LANG in particular) affect the charset
 used for the translated messages, but not help files, and also,
 gettext may refuse to translate anything at all if LANG is not

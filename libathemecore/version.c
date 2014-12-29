@@ -12,8 +12,11 @@ const char *revision = SERNO;
 
 const char *infotext[] =
 {
-  "Atheme IRC Services --",
-  "Copyright (c) 2005-2013 Atheme Development Group (http://www.atheme.org)",
+  "EZtheme IRC Services --",
+  "Note: This is not official Atheme anymore.",
+/*  "Atheme IRC Services --",*/
+  "Copyright (c) 2014- EZtheme Development Group (http://electrocode.net)",
+  "Portions copyright (c) 2005-2013 Atheme Development Group (http://www.atheme.org)",
   "Portions copyright (c) 2004 Shrike Developers (http://www.malkier.net)",
   " ",
   "Permission to use, copy, modify, and/or distribute this software for any",
@@ -30,6 +33,10 @@ const char *infotext[] =
   "ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT",
   "(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS",
   "SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.",
+  " ",
+  "EZtheme's core group is comprised of the following people,",
+  "in nick-alphabetical order:",
+  "  Iota, Ken Spencer <iota@electrocode.net>",
   " ",
   "Currently Atheme's core group consists of the following developers,",
   "in nick-alphabetical order:",
@@ -72,6 +79,6 @@ const char *infotext[] =
   "  rintaun, Matt Lanigan <rintaun@projectxero.net>",
   "  sycobuny, Stephen Belcher <sycobuny@malkier.net>",
   " ",
-  "Visit our website at http://www.atheme.net",
+  "Visit our website at http://electrocode.net",
   0,
 };

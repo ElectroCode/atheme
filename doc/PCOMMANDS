@@ -10,7 +10,7 @@ not support all of these commands, and there is not always a /msg equivalent.
 <atheme> means Atheme's server name or a name of a service.
 
 /admin <atheme> (-) Show administrative information (adminname and adminemail
-from atheme.conf).
+from eztheme.conf).
 
 /info <atheme> (-) Shows copyright information and a list of authors.
 

@@ -65,7 +65,7 @@ will not be able to run services. However, most systems include a runtime
 linker these days.
 
 The IRCds supported by Services are listed in the example config
-(dist/atheme.conf.example). Although many others are supported, Services can
+(dist/eztheme.conf.example). Although many others are supported, Services can
 provide the richest experience with one of the recommended IRCds: Charybdis,
 ShadowIRCD and UnrealIRCd.
 
@@ -114,7 +114,7 @@ It is recommended to keep the source directory; you will need it to
 (re)compile modules later.
 
 Next, you'll want to go to the directory you specified in "configure" and edit
-etc/atheme.conf. You'll need to change every setting or services will 
+etc/eztheme.conf. You'll need to change every setting or services will 
 not work.
 
 2. UPGRADING
@@ -212,5 +212,5 @@ Simply pass the --enable-contrib switch to the configure script like so:
 
 The contrib modules will then be in your atheme install directory (by default
 this is ~/atheme/) in the modules/contrib directory. you can then load them on a live
-network like: "/msg operserv modload contrib/os_kill" or in your atheme.conf
+network like: "/msg operserv modload contrib/os_kill" or in your eztheme.conf
 by adding a loadmodule line like: loadmodule "modules/contrib/os_kill";

@@ -1,11 +1,11 @@
 #!/bin/sh
 #
-# crontab script for atheme
+# crontab script for eztheme
 #
 
 # Change this to the directory where you installed it
-prefix=$HOME/atheme/
-pidfile=var/atheme.pid
+prefix=$HOME/eztheme/
+pidfile=var/eztheme.pid
 
 cd "$prefix" || {
 	echo "$0: couldn't cd to $prefix"
@@ -22,8 +22,8 @@ if [ -f "$pidfile" ] ; then
   rm -f "$pidfile"
 fi
 
-echo "$0: couldn't find atheme running, restarting..."
+echo "$0: couldn't find eztheme running, restarting..."
 
-./bin/atheme-services
+./bin/eztheme-services
 
 exit 0

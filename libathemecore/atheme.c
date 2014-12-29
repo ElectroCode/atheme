@@ -321,7 +321,7 @@ int atheme_main(int argc, char *argv[])
 	}
 
 	if (!have_conf)
-		config_file = sstrdup(SYSCONFDIR "/atheme.conf");
+		config_file = sstrdup(SYSCONFDIR "/eztheme.conf");
 
 	if (!have_log)
 		log_p = sstrdup(LOGDIR "/atheme.log");

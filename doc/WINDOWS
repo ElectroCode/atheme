@@ -146,9 +146,9 @@ To do this, run the following commands:
 	$ cp /mingw/bin/libgnurx-0.dll .
 
 Now you need to configure your services install.  The appropriate file for this
-is in c:\atheme\etc\atheme.conf.  You can find a sample file called
-"atheme.conf.example" that you can copy and use as a starting point.  Save that
-file as atheme.conf when you are done making your changes.
+is in c:\atheme\etc\eztheme.conf.  You can find a sample file called
+"eztheme.conf.example" that you can copy and use as a starting point.  Save that
+file as eztheme.conf when you are done making your changes.
 
 This file doesn't cover setting up link blocks to your IRCd.  Read your IRCd's
 documentation for that.

@@ -1,4 +1,24 @@
-## atheme
+## eztheme
+
+## basic build instructions for the impatient
+
+Whatever you do, make sure you do *not* install EZtheme into the same location as the source.
+EZtheme will default to installing in `$HOME/eztheme`, so make sure you plan accordingly for this.
+
+    $ git submodule update --init
+    $ ./configure
+    $ make
+    $ make install
+
+If you're still lost, read [INSTALL](INSTALL) or [GIT-Access](GIT-Access) for hints.
+
+## links / contact
+
+ * [GitHub](http://www.github.com/ElectroCode/eztheme)
+ * [Website](http://electrocode.net)
+ * [IRC](irc://irc.electrocode.net/#eztheme)
+
+## Old Atheme Section/History
 
 Atheme is a *legacy* set of services for IRC networks designed for large IRC networks with high
 scalability requirements.  It is relatively mature software, with some code and design
@@ -28,20 +48,4 @@ To this end, you may find the following table useful:
 | End of ALL atheme.org services | 31 October 2016 |
 
 
-## basic build instructions for the impatient
 
-Whatever you do, make sure you do *not* install Atheme into the same location as the source.
-Atheme will default to installing in `$HOME/atheme`, so make sure you plan accordingly for this.
-
-    $ git submodule update --init
-    $ ./configure
-    $ make
-    $ make install
-
-If you're still lost, read [INSTALL](INSTALL) or [GIT-Access](GIT-Access) for hints.
-
-## links / contact
-
- * [GitHub](http://www.github.com/atheme/atheme)
- * [Website](http://www.atheme.net)
- * [IRC](irc://irc.atheme.org/#atheme)

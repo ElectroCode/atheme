@@ -1,6 +1,6 @@
-The Atheme GIT repository can be checked out using the following command:
-	$ git clone git://github.com/atheme/atheme.git atheme-devel
-	$ cd atheme-devel
+The EZtheme GIT repository can be checked out using the following command:
+	$ git clone git://github.com/ElectroCode/eztheme eztheme-devel
+	$ cd eztheme-devel
 
 You should then run these commands to get the source for libmowgli-2 and
 the contrib modules. Even if you don't end up needing these, (you did not
@@ -12,4 +12,4 @@ be present.
 
 Atheme's GIT repository depot can be browsed over the internet at 
 the following address:
-	http://github.com/atheme/atheme/
+	http://github.com/ElectroCode/eztheme

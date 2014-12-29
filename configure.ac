@@ -7,12 +7,12 @@ dnl Process this file with autoconf to produce a configure script.
 
 AC_PREREQ(2.59)
 
-AC_INIT(atheme, 7.2.2, bugs@atheme.org)
+AC_INIT(eztheme, 1.0.0, bugs@electrocode.net)
 
 AC_CONFIG_AUX_DIR(autoconf)
 
 AC_CONFIG_HEADER(include/sysconf.h)
-AC_PREFIX_DEFAULT(~/atheme)
+AC_PREFIX_DEFAULT(~/eztheme)
 
 dnl Buildsys module stuff
 BUILDSYS_INIT
@@ -148,7 +148,7 @@ AS_IF([test "x$with_perl" != "xno"],
       PERL_LIBS=`perl -MExtUtils::Embed -e ldopts`
   fi
 
-  dnl if Perl is built with threading support, we need to link atheme against libpthread
+  dnl if Perl is built with threading support, we need to link eztheme against libpthread
   if test -n "`echo "$PERL_LIBS" | grep pthread`"; then
      LIBS="$LIBS -lpthread"
   fi
@@ -180,12 +180,12 @@ AC_HELP_STRING([--enable-fhs-paths],[ Use more FHS-like pathnames (for packagers
   case "$enableval" in
   yes)
     FHSPATHS="yes"
-    DOCDIR='${datadir}/doc/atheme'
-    MODDIR='${libdir}/atheme'
-    SHAREDIR='${datadir}/atheme'
-    LOGDIR='${localstatedir}/log/atheme'
-    DATADIR='${localstatedir}/lib/atheme'
-    RUNDIR='${localstatedir}/run/atheme'
+    DOCDIR='${datadir}/doc/eztheme'
+    MODDIR='${libdir}/eztheme'
+    SHAREDIR='${datadir}/eztheme'
+    LOGDIR='${localstatedir}/log/eztheme'
+    DATADIR='${localstatedir}/lib/eztheme'
+    RUNDIR='${localstatedir}/run/eztheme'
     ;;
   no)
     FHSPATHS="no"
@@ -430,7 +430,7 @@ d=`eval echo ${MODDIR}`
 d=`eval echo $d`
 echo "
 Configuration:
-	Atheme version       : ${PACKAGE_VERSION}
+	EZtheme version       : ${PACKAGE_VERSION}
 	Installation prefix  : ${prefix}
 	Module root directory: `eval echo $d`
 	Config directory     : ${sysconfdir}
@@ -447,4 +447,4 @@ Configuration:
 	CFLAGS               : ${CFLAGS}
 	Internationalization : ${USE_NLS}
 
-Type make to build Atheme, and make install to install it."
+Type make to build EZtheme, and make install to install it."
