@@ -15,7 +15,7 @@ If you're still lost, read [INSTALL](INSTALL) or [GIT-Access](GIT-Access) for hi
 ## links / contact
 
  * [GitHub](http://www.github.com/ElectroCode/eztheme)
- * [Website](http://electrocode.net)
+ * [Website](http://electrocode.net/eztheme)
  * [IRC](irc://irc.electrocode.net/#eztheme)
 
 ## Old Atheme Section/History
